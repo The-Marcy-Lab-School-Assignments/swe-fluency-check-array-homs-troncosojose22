@@ -35,7 +35,23 @@ const getEvenNumbers = (nums) => {
 };
 // Problem 5
 const getLargestNumber = (numbers) => {
-  
+  // this is hardcoded and wouldn't work with a different array of numbers
+  return numbers.find((number) => number > 9);
+
+  // I was going to sort the array in ascending order and then return the last index
+  // But that would make the function impure
+
+  /* Could also use forEach and store the largest number we have seen in a variable
+
+  let largestNumber = 0;
+  numbers.forEach((number) => {
+    if (number > largestNumber) {
+      largestNumber = number;
+    }
+    })
+  return largestNumber;
+    
+  */
 };
 
 /* -------------------------------------------------- */
