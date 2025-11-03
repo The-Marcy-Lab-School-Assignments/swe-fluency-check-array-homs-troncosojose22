@@ -58,7 +58,7 @@ const printUserNamesAndScores = (users) => {
 
 // Problem 7
 const getUserNames = (users) => {
-
+  return users.map((user) => user.name);
 };
 
 
