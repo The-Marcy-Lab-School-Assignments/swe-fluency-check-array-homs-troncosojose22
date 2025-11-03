@@ -15,7 +15,7 @@ const printEveryWord = (words) => {
 
 // Problem 2
 const getStringLengths = (strings) => {
-
+  return strings.map((string) => string.length);
 };
 
 // Problem 3
