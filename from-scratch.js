@@ -20,7 +20,7 @@ const getStringLengths = (strings) => {
 
 // Problem 3
 const sortWordsZtoA = (words) => {
-
+  words.sort((a, b) => b.charCodeAt(0) - a.charCodeAt(0));
 };
 
 /* -------------------------------------------- */
